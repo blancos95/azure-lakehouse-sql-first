@@ -16,7 +16,7 @@ Repo portfolio: flusso **bronze / silver / gold** su Azure con ADF + Databricks 
 
 ## Struttura repo
 - `adf/pipelines/` : pipeline / note di configurazione
-- `databricks/notebooks/` : script SQL per bronze/silver/gold + esempio MERGE
+- `databricks/notebooks/` : script per bronze/silver/gold
 - `powerbi/` : note su modello e misure
 - `architecture/` : diagramma architettura (in arrivo)
 
