@@ -5,7 +5,7 @@ Repo portfolio: flusso **bronze / silver / gold** su Azure con ADF + Databricks 
 ## Stack
 - Azure Data Factory (ADF): orchestrazione ingestion
 - Azure Storage / ADLS Gen2: layer bronze/silver/gold (file)
-- Databricks (SQL-first): trasformazioni e tabelle curate (Delta)
+- Databricks: trasformazioni e tabelle curate (Delta)
 - Power BI: consumo dati da layer gold
 
 ## Flusso (alto livello)
@@ -16,7 +16,7 @@ Repo portfolio: flusso **bronze / silver / gold** su Azure con ADF + Databricks 
 
 ## Struttura repo
 - `adf/pipelines/` : pipeline / note di configurazione
-- `databricks/sql/` : script SQL per bronze/silver/gold + esempio MERGE
+- `databricks/notebooks/` : script SQL per bronze/silver/gold + esempio MERGE
 - `powerbi/` : note su modello e misure
 - `architecture/` : diagramma architettura (in arrivo)
 
